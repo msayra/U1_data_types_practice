@@ -4,13 +4,19 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
+const myFavoriteSong = ('espresso');
+//console.log(myFavoriteSong)
+//console.log(`My favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
  *
  * Create 3 variables using let and const, then console.log each of them, using a string literal (` ${} `} in the log
  */
-
+const Genre = 'pop'
+const Artist = 'Keshi'
+const song = 'Magnolia'
+//console.log (`My favorite type of music is ${Genre} and I like ${Artist} with his song being ${song}`)
 /*
  * Prompt 3:
  *
@@ -21,6 +27,12 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+let volume = 70
+//console.log(volume + 30)
+//console.log(volume - 30)
+//console.log(volume * 3)
+//console.log(volume / 7)
+//console.log (volume % 3)
 
 /*
  * Prompt 4:
@@ -33,14 +45,22 @@
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
+const firstName= "Sayra"
+const lastName= "Nava"
+
+//console.log (`hello my name is ${firstName} ${lastName}`)
 
 
 /* Arrays */
 
 // Create an array of Movies, then log the 2nd movie in your array
 // Use your array methods to add a movie in to the Front of the array, then the Back of the Array, then to the 2nd index point of the array
-
-
+let movies= [ "Barbie", "Spiderman-homecoming","Marvels End Game","Spirited Away"]
+//console.log(movies[1])
+movies.unshift=['How to train Your dragon']
+movies.push('Shrek')
+movies.splice(3,0, 'Into The Spiderverse')
+//console.log(movies)
 /*
  *
  * Retrieve "Marty McFly" from each of the arrays below.
@@ -56,6 +76,9 @@ let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
+//console.log(array1[2])
+//console.log(array2[1][1])
+//console.log(array3[1][1][1])
 
 /*
  *
@@ -63,7 +86,8 @@ let array3 = [
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
-
+let length = array4.length-2
+//console.log(array4[length])
 /*
  *
  * Use the following arrays to answer the subprompts below.
@@ -74,6 +98,15 @@ let karolin = ['Karolin', 16, 'New York'];
 let kristyn = ['Kristyn', 5, 'Pittsburgh'];
 let cathleen = ['Cathleen', 186, 'New York'];
 
+thom[0]=`Tom`
+karolin[1]=`17`
+cathleen[2]= `Gotham City`
+kristyn[2]=`Oakland`
+ 
+console.log(thom)
+console.log(karolin)
+console.log(cathleen)
+console.log(kristyn)
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
 
